@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEO Restaurant & Cafe — Lumley Beach, Freetown</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { navy: '#0f172a', teal: '#0d9488', cream: '#f8fafc' },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>body { font-family: Inter, system-ui, sans-serif; }</style>
+</head>
+<body class="bg-cream text-navy">
+  <div class="bg-amber-100 text-amber-900 text-center text-sm py-2 px-4">
+    Complimentary mockup by Al-Falah Marketing — nothing is live under your name.
+  </div>
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-bold text-xl">LEO Restaurant & Cafe</div>
+      <a href="https://wa.me/23231536536" class="bg-teal text-white px-4 py-2 rounded-xl text-sm font-semibold">WhatsApp</a>
+    </div>
+  </header>
+  <section class="relative h-[70vh] min-h-[500px] flex items-end">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80" alt="Fine dining" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/55"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-4 pb-12 text-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">LEO Restaurant & Cafe</h1>
+      <p class="text-xl md:text-2xl mb-6">A whole new dining experience on Lumley Beach</p>
+      <div class="flex flex-wrap gap-4">
+        <a href="https://wa.me/23231536536?text=Hello%20LEO%2C%20I%20would%20like%20to%20reserve%20a%20table" class="bg-teal text-white px-6 py-3 rounded-xl font-semibold">Reserve on WhatsApp</a>
+        <a href="tel:+23231536536" class="bg-white/20 border border-white px-6 py-3 rounded-xl font-semibold">Call</a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-navy text-white py-4 text-sm text-center">
+    Laurel, MD · Coyah, Guinea · Freetown, Sierra Leone
+  </section>
+  <section id="menu" class="py-16 max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Signature Plates</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Steak" class="h-48 w-full object-cover">
+        <div class="p-5"><h3 class="font-bold text-xl mb-2">Grilled Steaks & Seafood</h3><p class="text-slate-600">Fresh local catch and premium cuts.</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" alt="Fusion" class="h-48 w-full object-cover">
+        <div class="p-5"><h3 class="font-bold text-xl mb-2">International Fusion</h3><p class="text-slate-600">West African flavors meet global cuisine.</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Coffee" class="h-48 w-full object-cover">
+        <div class="p-5"><h3 class="font-bold text-xl mb-2">Cafe & Desserts</h3><p class="text-slate-600">Specialty coffee and sweet treats.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Ambiance</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&q=80" class="rounded-xl h-40 object-cover" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-16 text-center max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Visit Us</h2>
+    <p class="text-lg mb-6">75 Lumley Beach Road, Aberdeen, Freetown</p>
+    <a href="https://wa.me/23231536536" class="inline-block bg-teal text-white px-8 py-4 rounded-xl text-lg font-semibold">WhatsApp +232 31 536 536</a>
+  </section>
+  <footer class="bg-navy text-slate-300 py-8 text-sm text-center">
+    <p>Mockup by <a href="https://al-falahmarketing.com" class="text-teal underline">Al-Falah Marketing</a></p>
+    <p class="mt-2">8468 Winding Trail, Laurel, MD 20724 · +1 240 280 6137 · info@al-falahmarketing.com</p>
+    <p class="mt-4 text-xs">Complimentary mockup — nothing published under your name.</p>
+  </footer>
+  <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t flex">
+    <a href="tel:+23231536536" class="flex-1 py-4 text-center font-semibold border-r">Call</a>
+    <a href="https://wa.me/23231536536" class="flex-1 py-4 text-center font-semibold bg-teal text-white">WhatsApp</a>
+  </div>
+</body>
+</html>
